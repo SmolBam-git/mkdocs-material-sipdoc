@@ -1,0 +1,7 @@
+.fa-brands, .fa-solid {
+    font-size: 1em !important; /* Ajusta el tamaño */
+    height: 1em !important;
+    width: auto;
+    line-height: 1;
+    vertical-align: middle;
+}

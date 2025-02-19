@@ -1,8 +1,13 @@
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
 
+
+extra_css:
+- docs/css/styles.css
+
 site_name: Manual SIP
 theme:
+  logo: assets/logoCut.png
   name: material
   language: en
   features:
@@ -17,14 +22,14 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: teal
-      accent: purple
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: teal
-      accent: lime
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -33,3 +38,22 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/emepeweb
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.extra
+  - attr_list
+  
+
+
+copyright:  |
+  &copy; 2025 <a href="https://github.com/SmolBam-git" target="_blank" rel="noopener">Iván David López Solís</a>
