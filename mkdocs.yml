@@ -9,7 +9,7 @@ site_name: SIP
 theme:
   logo: assets/logoCut.png
   name: material
-  language: en
+  language: es
   features:
     - navigation.tabs
     - navigation.sections
