@@ -1,3 +1,6 @@
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
+
 site_name: Manual SIP
 theme:
   name: material
@@ -26,8 +29,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-extras: 
+extra:
   social:
-    -icon: 
-      link:
-
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/emepeweb
