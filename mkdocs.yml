@@ -3,13 +3,13 @@ extra_javascript:
 
 
 extra_css:
-- docs/css/styles.css
+  - /css/styles.css
 
 site_name: SIP
 theme:
-  logo: assets/logoCut.png
   name: material
   language: es
+  logo: /assets/logoCut.png    # Logo predeterminado
   features:
     - navigation.tabs
     - navigation.sections
@@ -28,7 +28,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: white
+      primary: black
       accent: red
       toggle:
         icon: material/toggle-switch
@@ -56,4 +56,8 @@ markdown_extensions:
 
 
 copyright:  |
-  &copy; 2025 <a href="https://github.com/SmolBam-git" target="_blank" rel="noopener">Iván David López Solís</a>
+  &copy; 2025 <a href="https://www.linkedin.com/in/carlos-guardiola-espinosa/" target="_blank" rel="noopener">Carlos Alejandro Guardiola Espinosa</a>
+
+  <a>   &   </a>
+
+  <a href="https://github.com/SmolBam-git" target="_blank" rel="noopener">Iván David López Solís</a>
