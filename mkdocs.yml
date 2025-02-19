@@ -5,7 +5,7 @@ extra_javascript:
 extra_css:
 - docs/css/styles.css
 
-site_name: Manual SIP
+site_name: SIP
 theme:
   logo: assets/logoCut.png
   name: material
@@ -22,13 +22,13 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: red
+      primary: white
       accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: red
+      primary: white
       accent: red
       toggle:
         icon: material/toggle-switch
