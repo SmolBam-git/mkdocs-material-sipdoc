@@ -15,12 +15,14 @@ theme:
     code: Roboto Mono
   features:
     - navigation.tabs
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
     - navigation.top
     - navigation.expand
     - navigation.path
-    - navigation.sections
     - navigation.tabs.sticky
-    - toc.integrate
+    # - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -66,7 +68,11 @@ markdown_extensions:
   - pymdownx.extra
   
 nav:
-  - Introducción: inicio.md
+  - Bienvenida: bienvenida.md
+  - Inicio:
+    - Introducción: inicio.md
+    - Página 1: inicio/pg1.md
+    - Página 2: inicio/pg2.md
   - Oferta: oferta.md
   - Ventas: ventas.md
   - Contactos: contactos.md
@@ -75,6 +81,8 @@ nav:
   - Clasificación: clasificacion.md
   - Sistema: sistema.md
   - dev tools: index.md
+
+
   
 
 
