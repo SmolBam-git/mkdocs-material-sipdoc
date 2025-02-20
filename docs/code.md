@@ -1,3 +1,0 @@
-# Sobre el código 
-
-## Page...

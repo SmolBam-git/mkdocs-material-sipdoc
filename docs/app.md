@@ -1,3 +1,0 @@
-# Sobre la app
-
-## Page...
