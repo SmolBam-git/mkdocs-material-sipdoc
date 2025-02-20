@@ -15,6 +15,7 @@ theme:
     code: Roboto Mono
   features:
     - navigation.tabs
+    - navigation.top
     - navigation.expand
     - navigation.path
     - navigation.sections
@@ -28,6 +29,7 @@ theme:
     - content.code.copy
     - navigation.instant
     - navigation.instant.progress
+    - toc.follow
   palette:
     - scheme: default
       primary: white
@@ -48,6 +50,8 @@ extra:
       link: https://www.linkedin.com/company/emepeweb
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - attr_list
   - pymdownx.emoji
   - pymdownx.highlight
@@ -62,7 +66,7 @@ markdown_extensions:
   - pymdownx.extra
   
 nav:
-  - Inicio: inicio.md
+  - Introducción: inicio.md
   - Oferta: oferta.md
   - Ventas: ventas.md
   - Contactos: contactos.md
