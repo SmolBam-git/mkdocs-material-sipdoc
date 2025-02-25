@@ -1,30 +1,26 @@
-/* Usar el nombre correcto de la página sin .md y sin la barra */
-body[data-md-page="/bienvenida/"] {
-  background-image: url('assets/bienvenidaBG.jpg');
+.bienvenida-page {
+  background-image: url('../../assets/bienvenidaBG.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* Navbar transparente */
-body[data-md-page="/bienvenida/"] .md-header {
+.bienvenida-page .md-header {
   background: transparent !important;
   box-shadow: none !important;
   z-index: 10;
   position: relative;
 }
 
-/* Ajuste del contenido para transparencia */
-body[data-md-page="/bienvenida/"] .md-main {
-  background: rgba(130, 87, 87, 0.5);  /* Fondo oscuro semitransparente */
+.bienvenida-page .md-main {
+  background: rgba(130, 87, 87, 0.5);
   padding: 20px;
   border-radius: 10px;
   color: white;
   z-index: 20;
   position: relative;
 }
-
 
 [data-md-color-scheme="default"] {
     --md-logo-image: url(/assets/logoCut.png);
