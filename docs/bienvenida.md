@@ -31,10 +31,19 @@
     .md-main,
     .md-tabs,
     .md-footer,
-    .md-footer-nav,
     .md-footer-meta {
         background: transparent !important;
         box-shadow: none !important;
+    }
+
+    
+    .md-footer__link,
+    .md-footer__link--next{
+        display: none !important;
+    }
+
+    .md-footer-nav{
+        color: red
     }
 
     .md-sidebar--primary {

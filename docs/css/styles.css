@@ -55,3 +55,7 @@
     content: '▶ ';
     color: #d42323 !important;
   }
+
+  html[data-md-file="/bienvenida.md/"] .md-footer-nav {
+    display: none !important;
+  }
