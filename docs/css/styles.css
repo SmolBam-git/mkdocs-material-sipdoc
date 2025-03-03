@@ -47,11 +47,11 @@
   } 
 
   .md-nav__link--active {
-    color: #d42323 !important;         /* Cambia el color del texto a rojo */
-    font-weight: bold !important;  /* Opcional: Resalta el texto */
+    color: #d42323 !important;
+    font-weight: bold !important; 
   }
   
   .md-nav__link--active::before {
-    content: '▶ ';                 /* Opcional: Agrega un icono de flecha */
-    color: #d42323 !important;                    /* Color de la flecha */
+    content: '▶ ';
+    color: #d42323 !important;
   }

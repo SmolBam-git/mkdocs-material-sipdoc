@@ -80,12 +80,46 @@ nav:
     - Propuestas de clientes: oferta/propuestas.md
     - Bloqueos: oferta/bloqueos.md
     - Cotizaciones: oferta/cotizaciones.md
-  - Ventas: ventas.md
-  - Contactos: contactos.md
-  - Personal: personal.md
-  - Catálogos: catalogos.md
-  - Clasificación: clasificacion.md
-  - Sistema: sistema.md
+  - Ventas:
+    - Introducción: ventas.md
+    - Análisis Financieros: ventas/analisis.md
+    - Testigos: ventas/testigos.md
+    - Objetivos Vendadores: ventas/objetivos.md
+    - Ordenes de venta: ventas/ordenes.md
+    - Operaciones: ventas/operaciones.md
+  - Contactos:
+    - Introducción: contactos.md
+    - Clientes: contactos/clientes.md
+    - Asociar Cliente a Vendedor: contactos/asociar.md
+    - Convenios: contactos/convenios.md
+    - Proveedores: contactos/proveedores.md
+    - Agencias: contactos/agencias.md
+    - Tarifas: contactos/tarifas.md
+  - Personal:
+    - Introducción: personal.md
+    - Empleados: personal/empleados.md
+    - Cuadrillas: personal/cuadrillas.md
+  - Catálogos:
+    - Introducción: catalogos.md
+    - Sectores: catalogos/sectores.md
+    - Tipos de clientes: catalogos/t_clientes.md
+    - Tipos de proveedores: catalogos/t_proveedores.md
+    - Tipos de Sitios: catalogos/t_sitios.md
+    - Tipos de Vistas: catalogos/t_vistas.md
+    - Tipos de Materiales: catalogos/t_materiales.md
+    - Empresas: catalogos/empresas.md
+    - Bancos: catalogos/bancos.md
+    - Almacenes: catalogos/almacenes.md
+    - Ciudades: catalogos/ciudades.md
+    - Estructuras: catalogos/estructuras.md
+  - Clasificación:
+    - Introducción: clasificacion.md
+    - Plataformas de sitios: clasificacion/plataformas.md
+    - Clasificación de sitios: clasificacion/clasificacion.md
+  - Sistema:
+    - Introducción: sistema.md
+    - Configuración: sistema/config.md
+    - Usuarios: sistema/users.md
   - dev tools: index.md
 
 
