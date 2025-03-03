@@ -1,82 +1,159 @@
 <style>
-  body {
-    background-image: url('../../assets/fondoOscuro/arteExpuesto.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+    [data-md-component="palette"] {
+        display: none !important;
+    }
 
-  .md-header {
-    background: transparent !important;
-    box-shadow: none !important;
-    z-index: 10;
-    position: relative;
-  }
+    body {
+        position: relative;
+        overflow: hidden;
+    }
 
-  .md-main {
-    background: transparent !important;
-    box-shadow: none !important;
-  }
+    .background-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
 
-  .md-tabs {
-    background: transparent !important;
-    box-shadow: none !important;
-}
+    .background-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        transition: opacity 1s ease-in-out;
+    }
 
-.md-footer {
-    background: transparent !important;
-}
+    .md-header,
+    .md-main,
+    .md-tabs,
+    .md-footer,
+    .md-footer-nav,
+    .md-footer-meta {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
 
-.md-footer-nav {
-    background: transparent !important;
-}
+    .md-sidebar--primary {
+        display: none !important;
+    }
 
-.md-footer-meta {
-    background: transparent !important;
-}
+    .welcome-container {
+        max-width: 600px;
+        margin-left: -100px;
+        margin-right: 50px;
+        margin-top: 0.25em;
+        padding: 20px;
+        color: white;
+        text-align: left;
+    }
 
-.md-sidebar--primary {
-    display: none !important;
-}
+    .welcome-container h1 {
+        background: none;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        border-radius: 5px;
+    }
 
-.welcome-container {
-    max-width: 600px;
-    margin-left: -100px;
-    margin-right: 50px;
-    margin-top: 12em;
-    padding: 20px;
-    color: white;
-    text-align: left;
-}
 
-.welcome-button {
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
+    .welcome-button {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white !important;
+    }
 
-.start-button {
-    background-color: #d42323;
-    color: white;
-}
+    .start-button {
+        background-color: #d42323;
+    }
 
-.learn-more-button {
-    background: transparent !important;
-    color: white;
-}
+    .learn-more-button {
+        background: transparent !important;
+        border: none;
+    }
 </style>
 
-<div class="welcome-container">
-    <h1>Bienvenido a Nuestra Plataforma</h1>
-    
-    
+<div class="background-container">
+    <div class="background-image" id="bg1"></div>
+    <div class="background-image" id="bg2" style="opacity: 0;"></div>
+</div>
 
+<div class="welcome-container">
+    <h1>Bienvenido a SIP</h1>
     <div>
-        <a href="/ruta-a-tu-pagina" class="welcome-button start-button">Comenzar</a>
-        <a href="/about" class="welcome-button learn-more-button">Learn More</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit nulla, imperdiet ac mi pretium, vehicula gravida nisi. Phasellus sit amet felis rutrum, laoreet lectus.</p>
+        <a href="/inicio/" class="welcome-button start-button">Comenzar</a>
     </div>
 </div>
+
+<script>
+    const images = ["biumedia.jpg", "adios.jpg", "muroAtlas.jpg", "arteExpuesto.jpg", "gazelle.jpg", "didi.jpg", "bienvenidaBG.jpg"];
+    let index = 1;
+    let intervalId;
+
+    function updateBackground() {
+        const bg1 = document.getElementById("bg1");
+        const bg2 = document.getElementById("bg2");
+
+        if (!bg1 || !bg2) return; // Evita errores si los elementos no están presentes aún
+
+        const nextImage = `../../assets/fondos/${images[index]}`;
+
+        const fadingIn = bg1.style.opacity == "1" ? bg2 : bg1;
+        const fadingOut = bg1.style.opacity == "1" ? bg1 : bg2;
+
+        fadingIn.style.backgroundImage = `url('${nextImage}')`;
+        fadingIn.style.opacity = "1";
+        fadingOut.style.opacity = "0";
+
+        index = (index + 1) % images.length;
+    }
+
+    function startImageRotation() {
+        const bg1 = document.getElementById("bg1");
+        const bg2 = document.getElementById("bg2");
+
+        if (!bg1 || !bg2) return;
+
+        bg1.style.backgroundImage = `url('../../assets/fondos/${images[0]}')`;
+        bg1.style.opacity = "1";
+        bg2.style.opacity = "0";
+        index = 1;
+
+        if (!intervalId) {
+            intervalId = setInterval(updateBackground, 10000);
+        }
+    }
+
+    function resetAndStart() {
+        setTimeout(startImageRotation, 100); // Pequeño retraso para asegurar que se cargue bien
+    }
+
+    document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) {
+            resetAndStart();
+        }
+    });
+
+    // Observa cambios en la carga de la página (para MkDocs)
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            if (mutation.type === "childList") {
+                if (document.querySelector(".background-container")) {
+                    resetAndStart();
+                }
+            }
+        });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    document.addEventListener("DOMContentLoaded", resetAndStart);
+</script>
+
