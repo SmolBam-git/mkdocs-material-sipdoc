@@ -72,9 +72,14 @@ nav:
   - Bienvenida: bienvenida.md
   - Inicio:
     - Introducción: inicio.md
-    - Página 1: inicio/pg1.md
-    - Página 2: inicio/pg2.md
-  - Oferta: oferta.md
+  - Oferta: 
+    - Introducción: oferta.md
+    - Sitios: oferta/sitios.md
+    - Disponibilidad: oferta/disponibilidad.md
+    - Planea tu campaña: oferta/planea.md
+    - Propuestas de clientes: oferta/propuestas.md
+    - Bloqueos: oferta/bloqueos.md
+    - Cotizaciones: oferta/cotizaciones.md
   - Ventas: ventas.md
   - Contactos: contactos.md
   - Personal: personal.md

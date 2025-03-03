@@ -22,8 +22,6 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 2. Selector de dashboards: Fuera del dashboard de Inicio del cual ya hablamos previamente, existen diferentes Dashboards que está divididos por categorías. Estas categorías son:
 
-    <a></a>
-
     - <a href="/oferta/">Oferta</a> 
 
     - <a href="/ventas/">Ventas</a>

@@ -53,5 +53,5 @@
   
   .md-nav__link--active::before {
     content: '▶ ';                 /* Opcional: Agrega un icono de flecha */
-    color: #d42323;                    /* Color de la flecha */
+    color: #d42323 !important;                    /* Color de la flecha */
   }
