@@ -1,5 +1,16 @@
 
-# herramientas para devs
+<style>
+.md-footer__link,
+.md-footer__link--next{
+    display: none !important; 
+} 
+
+.md-footer__inner{
+    display: none !important; 
+}
+</style>
+
+# Sobre el Desarrollo
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

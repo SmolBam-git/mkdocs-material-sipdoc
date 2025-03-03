@@ -2,6 +2,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
 
 
+
 extra_css:
   - /css/styles.css
 
@@ -121,7 +122,7 @@ nav:
     - Introducción: sistema.md
     - Configuración: sistema/config.md
     - Usuarios: sistema/users.md
-  - dev tools: index.md
+  - Sobre el Desarrollo: index.md
 
 
   
