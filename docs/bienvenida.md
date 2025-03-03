@@ -42,7 +42,10 @@
     }
 
     .welcome-container {
-        max-width: 600px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.36);
+        backdrop-filter: blur(5px);
+        max-width: 300px;
         margin-left: -100px;
         margin-right: 50px;
         margin-top: 0.25em;
@@ -56,6 +59,12 @@
         color: white;
         display: inline-block;
         font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .welcome-container p {
+        color: white;
+        display: inline-block;
         border-radius: 5px;
     }
 
@@ -87,7 +96,9 @@
 <div class="welcome-container">
     <h1>Bienvenido a SIP</h1>
     <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit nulla, imperdiet ac mi pretium, vehicula gravida nisi. Phasellus sit amet felis rutrum, laoreet lectus.</p>
+        <p>
+        En esta página encontrarás toda la documentación de SIP, tu guía completa para entender y aprovechar cada función de la aplicación web. Explora cada sección para conocer a fondo sus características y cómo utilizarla de manera eficiente.
+        </p>
         <a href="/inicio/" class="welcome-button start-button">Comenzar</a>
     </div>
 </div>
