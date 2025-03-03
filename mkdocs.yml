@@ -9,7 +9,7 @@ site_name: SIP
 theme:
   name: material
   language: es
-  logo: /assets/logoCut.png    # Logo predeterminado
+  logo: /assets/logoCut.png
   font:
     text: Roboto
     code: Roboto Mono
@@ -47,6 +47,7 @@ theme:
         name: Switch to light mode
 
 extra:
+  homepage: bienvenida
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/emepeweb
