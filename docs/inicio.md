@@ -10,6 +10,8 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 ![mainDashboard](assets/mainDashboardEnum.png)
 
+### Secciones
+
 1. Barra Lateral: En esta primera barra lateral tendremos la opció de viajar a tres dashboards principales:
 
     - Inicio: Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
@@ -39,10 +41,8 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 
 
-3. Pantalla principal:
+3. Pantalla principal: Como ya se explico durante el punto 1, esta no es más que una bienvenida y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos, así mismo cuenta con una grafica de pastel con los sitios por categoría.
 
-4. Notificaciones:
+4. Notificaciones: Cualquier acción realizada sobre cotizaciones se verán reflejadas aquí.
 
-5. Perfil: 
-
-## Dashboard principal
+5. Perfil: Muestra una pantalla con los datos del usuario (Nomrbe de Usuario y Correo) además de un botón para cerrar la sesión.
