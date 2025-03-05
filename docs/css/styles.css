@@ -15,6 +15,7 @@
 
 .bienvenida-page .md-main {
   background: rgba(130, 87, 87, 0.5);
+  box-shadow: none !important;
   padding: 20px;
   border-radius: 10px;
   color: white;

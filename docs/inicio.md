@@ -12,7 +12,7 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 ### Secciones
 
-1. Barra Lateral: En esta primera barra lateral tendremos la opció de viajar a tres dashboards principales:
+1. Barra Lateral: En esta primera barra lateral tendremos la opción de viajar a tres dashboards principales:
 
     - Inicio: Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
 

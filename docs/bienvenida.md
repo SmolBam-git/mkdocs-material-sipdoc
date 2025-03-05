@@ -3,6 +3,36 @@
         display: none !important;
     }
 
+    /* [data-md-color-scheme="slate"] {
+    --md-logo-image: url(/assets/logoCut_alt.png);
+    } */
+
+    .md-logo{
+    --md-logo-image: url(/assets/logoCut_alt.png);
+    }
+
+    .md-ellipsis{
+        color: white;
+    }
+
+    .md-tabs {
+    background: transparent;
+    color: white;
+    display: block;
+    line-height: 1.3;
+    overflow: auto;
+    width: 100%;
+    z-index: 3;
+    }
+
+    .md-tabs__item--active{
+        color: white;
+    }
+
+    .md-search{
+        display: none !important;
+    }
+
     body {
         position: relative;
         overflow: hidden;
