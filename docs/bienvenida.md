@@ -3,9 +3,15 @@
         display: none !important;
     }
 
-    /* [data-md-color-scheme="slate"] {
-    --md-logo-image: url(/assets/logoCut_alt.png);
-    } */
+    .md-header,
+    .md-main,
+    .md-tabs,
+    .md-footer,
+    .md-footer-meta {
+        background: transparent !important;
+        box-shadow: none !important;
+        border-bottom: none !important;
+    }
 
     .md-logo{
     --md-logo-image: url(/assets/logoCut_alt.png);
@@ -57,14 +63,7 @@
         transition: opacity 1s ease-in-out;
     }
 
-    .md-header,
-    .md-main,
-    .md-tabs,
-    .md-footer,
-    .md-footer-meta {
-        background: transparent !important;
-        box-shadow: none !important;
-    }
+    
 
     
     .md-footer__link,
