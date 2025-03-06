@@ -44,3 +44,5 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 4. Notificaciones: Cualquier acción realizada sobre cotizaciones se verán reflejadas aquí.
 
 5. Perfil: Muestra una pantalla con los datos del usuario (Nomrbe de Usuario y Correo) además de un botón para cerrar la sesión.
+
+                        
