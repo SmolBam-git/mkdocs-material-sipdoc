@@ -1,14 +1,18 @@
 # Sitios
 
+## Introducción
+
 En esta primera sección de la categoría de Oferta se despliega una tabla con todos los sitios cargados al sistema, estos datos lleva la tabla: Folio, Tipo de Sitio, Detalles (botones que dan acceso a Vistas y Ficha), Plataforma, País, Estado, Ciudad, Vialidad, Tipo avenida, Código Postal, Metros Cuadrados, Empresa, Iluminación, Nivel Socioeconómico, Último Mantenimiento, Tipo de Establecimiento, Alto Impacto, Emblema, Forma de Contratación, Ubicación, Formato, Medio, Estructura y Acciones (botones para Editar y Eliminar Sitios Existentes)
 
 ![sitioDashboard](../assets/sitioDashboard.png)
 
-Si nos dirigimos más abajo en la página habrá una barra que nos permitirá desplazarnos a través de la tabla, sin embargo una alternativa más sencilla para mejorar la navegación en esta pantalla es poner el cursor sobre la tabla y mantener presionada la tecla SHIFT + rueda del ratón, esto facilitará la navegación en esta y en otras tablas en SIP.
+!!! tip
+
+    Con el cursor sobre la tabla,  `SHIFT + Rueda del Ratón` para navegar a través de ella.
 
 ## Acciones Importantes
 
-A continiación se enumeran opciones de la sección de Sitios:
+A continiación se enumeran opciones de la sección de Disponibilidad:
 
 ![sitiosDashboardEnum](../assets/sitiosDashboardEnum.png)
 
