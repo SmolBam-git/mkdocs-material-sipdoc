@@ -15,8 +15,8 @@ A continiación se enumeran opciones de la sección de Sitios:
 ### 1. Cuadro de Búsqueda
 En este cuadro podemos buscar sitios por medio de palabras clave o números, como en cualquier cuadro de búsqueda común.
 
-### 2. Exportar a xlsx
-Este botón nos permite exportar la totalidad de los sitios en la tabla con todos sus datos a un documento xlsx que podremos abrir via Excel o Google Sheets.
+### 2. Exportar a .xlsx
+Este botón nos permite exportar la totalidad de los sitios en la tabla con todos sus datos a un archivo `.xlsx` que podremos abrir via Excel o Google Sheets.
 
 ### 3. Agregar Sitio
 Este botón desplegará un formulario que debe ser llenado para dar de alta un sitio. A continuación el tutorial para llevar este proceso a cabo.
@@ -34,7 +34,7 @@ El llenado del formulario es bastante intuitivo, pero hay algunas cosas a consid
 
 - De no tener un campo llenado o tenerlo llenado pero icorrectamente, SIP comentará el error automáticamente antes de guardarlo para poder hacer correcciones.
 
-- En caso de que queramos cancelar el alta del sitio, junto al boton de Guardar está el botón de cancelar.
+- En caso de que queramos cancelar el alta del sitio, junto al boton de `Guardar` está el botón de `Cancelar`.
 
 ---
 
@@ -46,7 +46,7 @@ Hacer click en este botón abrirá la siguiente pantalla:
 
 ![vistas](../assets/vistasDashboard.png)
 
-Aquí se encuentran los detalles del sitio con los que fue dado de alta el sitio, un botón que dice Ficha que nos lleva a la pantalla del  mismo nombre (Ver Número 6 para información de ese apartado), en la parte inferior tenemos una tabla donde aparecerán las vistas que hayamos agregado al sitio, aparecerá vacío si no se han agregado vistas, como es el caso de la imagen. Esta tabla de vistas también puede ser exportada como archivo `.xlsx`. Por último tenemos el botón para Agregar Vistas, a continuación el tutorial de este apartado.
+Aquí se encuentran los detalles del sitio con los que fue dado de alta el sitio, un botón que dice Ficha que nos lleva a la pantalla del  mismo nombre (Ver Número 6 para información de ese apartado), en la parte inferior tenemos una tabla donde aparecerán las vistas que hayamos agregado al sitio, aparecerá vacío si no se han agregado vistas, como es el caso de la imagen. Esta tabla de vistas también puede ser exportada como archivo `.xlsx`. Por último tenemos el botón de `Agregar Vistas`, a continuación el tutorial de este apartado.
 
 ---
 #### Tutorial Agregar Vistas
@@ -65,7 +65,7 @@ Puntos a considerar:
 
 - De no tener un campo llenado o tenerlo llenado pero icorrectamente, SIP comentará el error automáticamente antes de guardarlo para poder hacer correcciones.
 
-- En caso de que queramos cancelar el alta de la vista, junto al boton de Guardar está el botón de cancelar.
+- En caso de que queramos cancelar el alta de la vista, junto al boton de `Guardar` está el botón de `Cancelar`.
 
 
 ---

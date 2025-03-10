@@ -75,7 +75,7 @@ nav:
   - Inicio:
     - Introducción a SIP: inicio.md
   - Oferta: 
-    - Introducción a Oferta: oferta.md
+    # - Introducción a Oferta: oferta.md
     - Sitios: oferta/sitios.md
     - Disponibilidad: oferta/disponibilidad.md
     - Planea tu campaña: oferta/planea.md
@@ -83,14 +83,14 @@ nav:
     - Bloqueos: oferta/bloqueos.md
     - Cotizaciones: oferta/cotizaciones.md
   - Ventas:
-    - Introducción a Ventas: ventas.md
+    # - Introducción a Ventas: ventas.md
     - Análisis Financieros: ventas/analisis.md
     - Testigos: ventas/testigos.md
     - Objetivos Vendadores: ventas/objetivos.md
     - Ordenes de venta: ventas/ordenes.md
     - Operaciones: ventas/operaciones.md
   - Contactos:
-    - Introducción a Contactos: contactos.md
+    # - Introducción a Contactos: contactos.md
     - Clientes: contactos/clientes.md
     - Asociar Cliente a Vendedor: contactos/asociar.md
     - Convenios: contactos/convenios.md
@@ -98,11 +98,11 @@ nav:
     - Agencias: contactos/agencias.md
     - Tarifas: contactos/tarifas.md
   - Personal:
-    - Introducción a Personal: personal.md
+    # - Introducción a Personal: personal.md
     - Empleados: personal/empleados.md
     - Cuadrillas: personal/cuadrillas.md
   - Catálogos:
-    - Introducción a Catálogos: catalogos.md
+    # - Introducción a Catálogos: catalogos.md
     - Sectores: catalogos/sectores.md
     - Tipos de clientes: catalogos/t_clientes.md
     - Tipos de proveedores: catalogos/t_proveedores.md
@@ -115,11 +115,11 @@ nav:
     - Ciudades: catalogos/ciudades.md
     - Estructuras: catalogos/estructuras.md
   - Clasificación:
-    - Introducción a Clasificación: clasificacion.md
+    # - Introducción a Clasificación: clasificacion.md
     - Plataformas de sitios: clasificacion/plataformas.md
     - Clasificación de sitios: clasificacion/clasificacion.md
   - Sistema:
-    - Introducción a Sistema: sistema.md
+    # - Introducción a Sistema: sistema.md
     - Configuración: sistema/config.md
     - Usuarios: sistema/users.md
   - Sobre el Desarrollo: index.md
