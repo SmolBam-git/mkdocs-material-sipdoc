@@ -38,73 +38,27 @@ Hacer click en uno de estos orbes nos acercará a la ubicación, donde después 
 
 ![dispoPopup](../assets/dispoPopup.png)
 
-Como podemos observar, nos da algunos detalles de la propiedad seleccionada y también nos permite marcarlo como favorito con el botón de corazón y también al hacer click en el botón de carrito se seleccionará la propiedad. Para más detalles sobre propiedades seleccionadas vaya a la acción número 9.
+Como podemos observar, nos da algunos detalles de la propiedad seleccionada y también nos permite marcarlo como favorito con el botón de corazón y también al hacer click en el botón de carrito se seleccionará la propiedad. Para más detalles sobre propiedades seleccionadas vaya a la <a href="#4-cuadros-de-seleccion">acción número 4</a>.
 
-### 3. Agregar Sitio
-Este botón desplegará un formulario que debe ser llenado para dar de alta un sitio. A continuación el tutorial para llevar este proceso a cabo.
+### 3. Filtros de la Tabla
+Filtros aplicables en casi todas las columnas de la tabla para ayudar todavía más con la busqueda de propiedades.
 
----
-#### Tutorial Agregar Sitios
+### 4. Cuadros de Selección
 
-Posterior al click en el botón de `Agregar Sitio`, se muestra el siguiente Formulario:
+Marcar las propiedades deseadas hará que bajo la tabla aparezca la sección de Vistas Seleccionadas.
 
-![agregarSitio](../assets/agregarSitio.png)
+![vistasSelect](../assets/vistasSelect.png)
 
-El llenado del formulario es bastante intuitivo, pero hay algunas cosas a considerar:
+Esta sección nos ofrece distintas opciones. Hacer click en el nombre de la vista nos desplegará la opción de mostrar la Vista Flotante que es el mismo cuadro que aparece en la acción número 2. La otra opción es la de Ver <a href="../sitios/#6-boton-ficha">Ficha Técnica</a>  que nos llevará a la pantalla del mismo nombre.
 
-- Si no llenamos el campo `Folio Histórico` se le asignará un folio automaticamente al sitio.
+En la parte superior de esta sección aparecen tres botones.
 
-- De no tener un campo llenado o tenerlo llenado pero icorrectamente, SIP comentará el error automáticamente antes de guardarlo para poder hacer correcciones.
+- Archivo KML: Nos permitirá guardar la selección en un archivo tipo `.kml`
 
-- En caso de que queramos cancelar el alta del sitio, junto al boton de `Guardar` está el botón de `Cancelar`.
+- Cotización: Mostrará el siguiente formulario
 
----
+![dispoCotizacion](../assets/dispoCotizacion.png)
 
-### 4. Mostrar Sitios
-Hacer click en este botón nos desplegará opciones para mostrar en la tabla distintas cantidades de sitios por página, de esta forma podemos navegar de manera más cómoda entre sitios. Las opciones que nos dan son 5, 10, 20, 50 y 100 sitios a mostrar por página.
+- Bloqueo: Mostrará el siguiente formulario
 
-### 5. Botón Vistas
-Hacer click en este botón abrirá la siguiente pantalla:
-
-![vistas](../assets/vistasDashboard.png)
-
-Aquí se encuentran los detalles del sitio con los que fue dado de alta el sitio, un botón que dice Ficha que nos lleva a la pantalla del  mismo nombre (Ver Número 6 para información de ese apartado), en la parte inferior tenemos una tabla donde aparecerán las vistas que hayamos agregado al sitio, aparecerá vacío si no se han agregado vistas, como es el caso de la imagen. Esta tabla de vistas también puede ser exportada como archivo `.xlsx`. Por último tenemos el botón de `Agregar Vistas`, a continuación el tutorial de este apartado.
-
----
-#### Tutorial Agregar Vistas
-
-Posterior al click en el botón de `Agregar Vista`, se muestra el siguiente Formulario:
-
-![agregarVista](../assets/agregarVista.png)
-
-Puntos a considerar:
-
-- El campo Nombre de la Vista y Código de la Vista son asignados automáticamente según el llenado del formulario.
-
-- Si asignamos el Tipo de Contenido como Digital en lugar de Estático, abajo aparecerá un segundo formulario que debe ser llenado en su totalidad para el alta:
-
-![agregarVista](../assets/agregarVistaDigital.png)
-
-- De no tener un campo llenado o tenerlo llenado pero icorrectamente, SIP comentará el error automáticamente antes de guardarlo para poder hacer correcciones.
-
-- En caso de que queramos cancelar el alta de la vista, junto al boton de `Guardar` está el botón de `Cancelar`.
-
-
----
-
-Una vez agregada la vista, se actualizará la tabla en la primera pantalla.
-
-![tablaVista](../assets/tablaVistas.png)
-
-Dando click en el codigo de la Vista o en el botón de editar, podemos acceder nuevamente al formulario y hacer modificaciones. El botón de eliminar también está presente.
-
-### 6. Botón Ficha
-Siempre que haya al menos una vista cargada en el sitio, al dar click aquí aparecerá su ficha:
-
-![ficha](../assets/ficha.jpg)
-
-### 7. Editar y Eliminar
-El botón editar desplegará el formulario nuevamente para su modificación y el botón de eliminar dará de baja el sitio.
-
-### 8. Navegación
-Controladores para moverse entre páginas.
+![dispoBloqueo](../assets/dispoBloqueo.png)
