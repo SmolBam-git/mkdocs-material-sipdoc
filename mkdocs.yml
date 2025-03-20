@@ -71,7 +71,7 @@ markdown_extensions:
   - pymdownx.extra
   
 nav:
-  - Bienvenida: bienvenida.md
+  - Bienvenida: index.md
   - Inicio:
     - Introducción a SIP: inicio.md
   - Oferta: 
@@ -122,7 +122,7 @@ nav:
     # - Introducción a Sistema: sistema.md
     - Configuración: sistema/config.md
     - Usuarios: sistema/users.md
-  - Sobre el Desarrollo: index.md
+  - Sobre el Desarrollo: desarrollo.md
 
 
   

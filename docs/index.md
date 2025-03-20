@@ -1,80 +1,208 @@
-
 <style>
-.md-footer__link,
-.md-footer__link--next{
-    display: none !important; 
-} 
+    [data-md-component="palette"] {
+        display: none !important;
+    }
 
-.md-footer__inner{
-    display: none !important; 
-}
+    .md-header,
+    .md-main,
+    .md-tabs,
+    .md-footer,
+    .md-footer-meta {
+        background: transparent !important;
+        box-shadow: none !important;
+        border-bottom: none !important;
+    }
+
+    .md-logo{
+    --md-logo-image: url(/assets/logoCut_alt.png);
+    }
+
+    .md-ellipsis{
+        color: white;
+    }
+
+    .md-tabs {
+    background: transparent;
+    color: white;
+    display: block;
+    line-height: 1.3;
+    overflow: auto;
+    width: 100%;
+    z-index: 3;
+    }
+
+    .md-tabs__item--active{
+        color: white;
+    }
+
+    .md-search{
+        display: none !important;
+    }
+
+    body {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .background-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        transition: opacity 1s ease-in-out;
+    }
+
+    
+
+    
+    .md-footer__link,
+    .md-footer__link--next{
+        display: none !important;
+    }
+
+    .md-footer-nav{
+        color: red
+    }
+
+    .md-sidebar--primary {
+        display: none !important;
+    }
+
+    .welcome-container {
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.36);
+        backdrop-filter: blur(5px);
+        max-width: 300px;
+        margin-left: -100px;
+        margin-right: 50px;
+        margin-top: 0.25em;
+        padding: 20px;
+        color: white;
+        text-align: left;
+    }
+
+    .welcome-container h1 {
+        background: none;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .welcome-container p {
+        color: white;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+
+    .welcome-button {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .start-button {
+        background-color: #d42323;
+    }
+
+    .learn-more-button {
+        background: transparent !important;
+        border: none;
+    }
 </style>
 
-# Sobre el Desarrollo
+<div class="background-container">
+    <div class="background-image" id="bg1"></div>
+    <div class="background-image" id="bg2" style="opacity: 0;"></div>
+</div>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div class="welcome-container">
+    <h1>Bienvenido a SIP</h1>
+    <div>
+        <p>
+        En esta página encontrarás toda la documentación de SIP, tu guía completa para entender y aprovechar cada función de la aplicación web. Explora cada sección para conocer a fondo sus características y cómo utilizarla de manera eficiente.
+        </p>
+        <a href="/inicio/" class="welcome-button start-button">Comenzar</a>
+    </div>
+</div>
 
-## A
+<script>
+    const images = ["biumedia.jpg", "adios.jpg", "muroAtlas.jpg", "arteExpuesto.jpg", "gazelle.jpg", "didi.jpg", "bienvenidaBG.jpg"];
+    let index = 1;
+    let intervalId;
 
-### B
+    function updateBackground() {
+        const bg1 = document.getElementById("bg1");
+        const bg2 = document.getElementById("bg2");
 
-#### C
+        if (!bg1 || !bg2) return; // Evita errores si los elementos no están presentes aún
 
-##### D
+        const nextImage = `../../assets/fondos/${images[index]}`;
 
+        const fadingIn = bg1.style.opacity == "1" ? bg2 : bg1;
+        const fadingOut = bg1.style.opacity == "1" ? bg1 : bg2;
 
-Some `code` goes here
+        fadingIn.style.backgroundImage = `url('${nextImage}')`;
+        fadingIn.style.opacity = "1";
+        fadingOut.style.opacity = "0";
 
-### Plain codeblock
+        index = (index + 1) % images.length;
+    }
 
-A plain codeblock
+    function startImageRotation() {
+        const bg1 = document.getElementById("bg1");
+        const bg2 = document.getElementById("bg2");
 
-``` 
-Some code here
-def myfunction()
-//JAJA
-```
+        if (!bg1 || !bg2) return;
 
-#### Code for a specific language
+        bg1.style.backgroundImage = `url('../../assets/fondos/${images[0]}')`;
+        bg1.style.opacity = "1";
+        bg2.style.opacity = "0";
+        index = 1;
 
-Some more code with the `py` at the start
+        if (!intervalId) {
+            intervalId = setInterval(updateBackground, 10000);
+        }
+    }
 
-```py
-import tensorflow as tf
-def whatever()
-```
+    function resetAndStart() {
+        setTimeout(startImageRotation, 100); // Pequeño retraso para asegurar que se cargue bien
+    }
 
-#### Código con título
+    document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) {
+            resetAndStart();
+        }
+    });
 
-```py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
+    // Observa cambios en la carga de la página (para MkDocs)
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            if (mutation.type === "childList") {
+                if (document.querySelector(".background-container")) {
+                    resetAndStart();
+                }
+            }
+        });
+    });
 
-#### Código con título + enumerado
+    observer.observe(document.body, { childList: true, subtree: true });
 
-```py linenums="1" title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Código con título + enumerado + highlights
-
-```py hl_lines="2 3" linenums="1" title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-## Icons and Emojis (font awesome se reusa a funcionar correctamente, no usar de preferencia)
-
-:smile:
+    document.addEventListener("DOMContentLoaded", resetAndStart);
+</script>
 
