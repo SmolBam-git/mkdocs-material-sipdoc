@@ -49,7 +49,7 @@ theme:
         name: Switch to light mode
 
 extra:
-  homepage: bienvenida
+  homepage: 
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/emepeweb
