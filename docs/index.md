@@ -142,7 +142,7 @@
 </div>
 
 <script>
-    const images = ["biumedia.jpg", "adios.jpg", "muroAtlas.jpg", "arteExpuesto.jpg", "gazelle.jpg", "didi.jpg", "bienvenidaBG.jpg"];
+    const images = ["biumedia.jpg","cerro.jpg", "adios.jpg", "muroAtlas.jpg", "arteExpuesto.jpg", "gazelle.jpg", "didi.jpg", "bienvenidaBG.jpg"];
     let index = 1;
     let intervalId;
 
