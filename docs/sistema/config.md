@@ -1,14 +1,12 @@
 # Configuración
 
-Si tenemos los permisos adecuadeos seremos capaces de gestionar empleados, es decir, darlos de alta, de baja o editarlos.
+En este apartado es posible ajustar varios periodos en SIP, dígase vigencias, días para vencimiento de ordenes, días para autorización, etcétera. También es posible establecer la configuración comercial, donde se establecen costos mínimos y promedios para impresión y ODT.
 
-Se despliega esta pantalla para la sección.
+A continuación se muestra la pantalla:
 
 ![config](../assets/config.png)
 
-Al igual que en varias tablas de SIP, contamos con una barra de busqueda y un botón de exportación a excel.
+Solo contaremos con el botón de Guardar si estamos de acuerdo con los cambios realizados o de cancelar si queremos regresar a los datos anteriormente establecidos y salir de la sección.
 
-## Acciones Importantes
 
-A continiación se muestran las acciones primordiales de la sección Usuarios:
 

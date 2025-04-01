@@ -30,5 +30,5 @@ En WhatsApp podemos agregar número de telefono y justo debajo podemos establece
 
 ### 2. Acciones (Editar y Eliminar)
 
-Al dar click en el nombre de usuario o en la acción de editar 
+Al dar click en el nombre de usuario o en la acción de editar se desplegará la misma pantalla que al crear usuario, solamente que estarán prellenados los datos. Si se decide cambiarlos hay que dar click en guardar al finalizar los cambios.s
 
