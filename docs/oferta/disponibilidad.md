@@ -59,6 +59,8 @@ En la parte superior de esta sección aparecen tres botones.
 
 ![dispoCotizacion](../assets/dispoCotizacion.png)
 
+<a href="../cotizaciones/#6-boton-ficha">Click aquí</a>  para ir a la sección de Cotizaciones.
+
 - Bloqueo: Mostrará el siguiente formulario
 
 ![dispoBloqueo](../assets/dispoBloqueo.png)
