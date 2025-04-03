@@ -16,7 +16,7 @@ Al igual que en varias tablas de SIP, contamos con una barra de busqueda y un bo
 
 ## Acciones Importantes
 
-A continiación se muestran las acciones primordiales de la sección Usuarios:
+A continiación se muestran las acciones primordiales de la sección Usuarios.
 
 ### 1. Agregar Usuarios
 
