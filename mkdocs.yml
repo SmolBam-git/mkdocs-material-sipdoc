@@ -97,10 +97,12 @@ nav:
     - Proveedores: contactos/proveedores.md
     - Agencias: contactos/agencias.md
     - Tarifas: contactos/tarifas.md
-  - Personal:
+  - Operaciones:
     # - Introducción a Personal: personal.md
-    - Empleados: personal/empleados.md
-    - Cuadrillas: personal/cuadrillas.md
+    - Empleados: operaciones/empleados.md
+    - Cuadrillas: operaciones/cuadrillas.md
+    - Mantenimiento: operaciones/mantenimiento.md
+    - Inventario: operaciones/inventario.md
   - Catálogos:
     # - Introducción a Catálogos: catalogos.md
     - Sectores: catalogos/sectores.md
