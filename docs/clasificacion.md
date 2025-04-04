@@ -1,3 +1,0 @@
-# Clasificación
-
-## Page...
