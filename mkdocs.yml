@@ -103,6 +103,9 @@ nav:
     - Cuadrillas: operaciones/cuadrillas.md
     - Mantenimiento: operaciones/mantenimiento.md
     - Inventario: operaciones/inventario.md
+    - Administrar Impresiones: operaciones/admin_impresiones.md
+    - Ejecutar Impresiones: operaciones/exec_impresiones.md
+    - Recibir Material: operaciones/recibirMaterial.md
   - Catálogos:
     # - Introducción a Catálogos: catalogos.md
     - Sectores: catalogos/sectores.md

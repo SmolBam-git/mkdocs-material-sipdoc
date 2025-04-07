@@ -4,28 +4,24 @@
 
     Esta página no tiene mucho contenido así que se omitirá la enumarción de acciones.
 
-En el apartado de Cuadrillas se nos permite dar de alta, editar y eliminar cuadrillas en SIP.
+!!! warning "Eliminar Mantenimientos"
 
-!!! warning "Sobre la enumeración de acciones"
+    Eliminar mantenimientos es una acción  que no se puede deshacer. El Mantenimiento seleccionado y el Historial de Mantenimiento serán eliminados permanentemente.
 
-    Eliminar mantenimientos es una acción  que no se puede deshacer. El Mantenimiento seleccionado y el Historial de Mantenimiento Serán eliminados permanentemente.
-
-En el apartado de Cuadrillas se nos permite dar de alta, editar y eliminar cuadrillas en SIP.
+En el apartado de Mantenimientos se nos permite dar de alta, finalizar y eliminar mantenimientos en SIP.
 
 ![mantenimiento](../assets/mantenimiento.png)
 
 ## Acciones Importantes
 
-Como en otras pantallas, se cuenta con botón de exportación a archivo compatible con Excel y un controlador para ver las páginas de registros en caso de que haya más de una página. También contamos con un cuadro de busqueda. Si se desean hacer ediciones podemos dar click en el nombre de las cuadrillas o en el ícono del lápiz, ambos llevan a la misma pantalla de edición. Es posible  también eliminar cuadrillas si damos click en el ícono del bote de basura.
+Como en otras pantallas, se cuenta con botón de exportación a archivo compatible con Excel y un controlador para ver las páginas de registros en caso de que haya más de una página. También contamos con un cuadro de busqueda. Es posible  también eliminar el mantenimiento si damos click en el botón rojo que lleva por nombre Eliminar, solo tengamos en cuenta la advertencia que nos da la misma pantalla.
 
-La acción principal en esta pantalla es Agregar Cuadrilla. Este botón dirige a la siguiente pantalla.
+También tenemos el botón de Finalizar mantenimiento, solo se debe dar click en esta acción cuando el mantenimiento haya finalizado definitivamente, hacer esto no eliminará de la vista el mantenimiento sino que solo dejará el registro de su finalización.
 
-![agregarCuadrilla](../assets/agregarCuadrilla.png)
+La acción principal en esta pantalla es Agregar Mantenimiento. Este botón dirige al siguiente formulario.
 
-Se deben llenar los datos para dar de alta el empleado. Los datos que aparecen con asterisco a la izquierda son campos obligatorios. Cuando deseemos editar algún empleado se dirigirá al usuario a esta misma pantalla.
+![agregarMantenimiento](../assets/agregarMantenimiento.png)
 
-Como podemos ver en la primera imagen hay un botón más que dice Integrantes. Al dar click lleva a este formulario.
+Se deben llenar los datos para dar de alta el mantenimiento. Cuando seleccionemos el Sitio ya sea a través de codigo o seleccionándolo en la tabla, se llenarán autómaticamente varias secciones del formulario por tanto es importante identificar primeramente el sitio antes de llenar el resto de apartados. Podemos apoyarnos en los filtros de más arriba en en formulario como es estado y ciudad para hacer más sencilla la busqueda.
 
-![integrantes](../assets/integrantes.png)
-
-En esta sección nos aparecen los empleados pertenecientes a la cuadrilla y su rol (si es o no jefe), usuario asociado y también controladores de páginas y los mismos botones de acciones para editar y eliminar e incluso un botón para exportar a los miembros de la cuadrilla a un documento compatible con excel. Tenemos también el botón de Agregar Miembro que muestra un formulario donde se solicita Empleado, una casilla de verificación para marcar si es jefe o no y por último usuario, posteriormente es posible guardar el usuario.
+Al finalizar hay que dar click en guardar.
