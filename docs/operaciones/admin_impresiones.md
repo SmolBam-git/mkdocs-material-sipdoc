@@ -26,11 +26,13 @@ Se muestran la tarjetas de las ordenes que recién fueron aprobadas. La tarjeta 
 
 Tenemos la opción de ir a la aprobación (podemos ir si queremos corroborar algún dato u obtener QR de la impresión) o de programar la impresión. Si decidimos programar la impresión se mostrará el siguiente formulario.
 
-![programar_ODI](../assets/programar_ODI.png)
+![admin_Impresiones](../assets/admin_Impresiones.png)
+
+Es importante seleccionar un proveedor, seleccionar las vistas y llenar todos los datos solicitados.
 
 ### En Ejecución
 
-
+En esta etapa tenemos dos opciones al dar click en el botón de la flecha; ir a la aprobación nuevamente si quisieramos conocer datos sobre el diseño o si queremos generar su QR o bien mandar a ejecución la impresión.
 
 ### Cancelada
 
