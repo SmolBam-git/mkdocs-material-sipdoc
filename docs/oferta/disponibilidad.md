@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Segundo deashboard de la categoría Oferta. Se muestra una tabla con todos los sitios cargados al sistema. La pantalla ofrece un mapa con los distintos sitios cargados al sistema, encima de este mapa hay filtros que podemos aplciarle. y debajo una tabla con los sitios según los filtros aplicados. 
+Segundo deashboard de la categoría Oferta. Se muestra una tabla con todos los sitios cargados al sistema. La pantalla ofrece un mapa con los distintos sitios cargados al sistema, encima de este mapa hay filtros que podemos aplicarle. y debajo una tabla con los sitios según los filtros aplicados. 
 
 ![dispoDashboard](../assets/dispoDashboard.png)
 

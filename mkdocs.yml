@@ -10,7 +10,7 @@ site_name: SIP
 theme:
   name: material
   language: es
-  logo: /assets/logoCut.png
+  logo: assets/logoCut.png
   font:
     text: Roboto
     code: Roboto Mono
