@@ -14,7 +14,7 @@
     }
 
     .md-logo{
-    --md-logo-image: url(assets/logoCut_alt.png);
+    --md-logo-image: url(/assets/logoCut_alt.png);
     }
 
     .md-ellipsis{
@@ -137,7 +137,7 @@
         <p>
         En esta página encontrarás toda la documentación de SIP, tu guía completa para entender y aprovechar cada función de la aplicación web. Explora cada sección para conocer a fondo sus características y cómo utilizarla de manera eficiente.
         </p>
-        <a href="/inicio/" class="welcome-button start-button">Comenzar</a>
+        <a href="inicio/" class="welcome-button start-button">Comenzar</a>
     </div>
 </div>
 

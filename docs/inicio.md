@@ -14,7 +14,7 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 1. Barra Lateral: En esta primera barra lateral tendremos la opción de viajar a tres portales principales:
 
-    - <a href="/oferta/sitios/">Inicio</a> : Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
+    - <a href="{{ base_url }}/oferta/sitios/">Inicio</a> : Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
 
     - <a href="/portales/testigos/">Testigos</a> : En esta sección se ven las Tomas de Testigos, tendremos opción de Aprobar o rechazar las tomas, de ser aprobadas desaparecerán de este dashboard. En cambio si rechazamos la toma, habrá que agregar la razón por la que se rechaza la toma. A diferencia de las tomas aprobadas, las tomas rechazadas aparecerán en el fondo de la página.
 
