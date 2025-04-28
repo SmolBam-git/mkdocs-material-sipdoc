@@ -24,7 +24,7 @@
 }
 
 [data-md-color-scheme="default"] {
-    --md-logo-image: url(/assets/logoCut.png);
+    --md-logo-image: url(../assets/logoCut.png);
     .md-sidebar .md-nav__item--active > .md-nav__link {
       color: black !important;
       font-weight: bold;
@@ -32,7 +32,7 @@
   }
   
   [data-md-color-scheme="slate"] {
-    --md-logo-image: url(/assets/logoCut_alt.png);
+    --md-logo-image: url(../assets/logoCut_alt.png);
     .md-sidebar .md-nav__item--active > .md-nav__link {
       color: rgb(193, 183, 183) !important;
       font-weight: bold;
