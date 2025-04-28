@@ -28,7 +28,7 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
     - <a href="../contactos/clientes/">Contactos</a>
 
-    - <a href="../operaciones/empleados/">Personal</a>
+    - <a href="../operaciones/empleados/">Operaciones</a>
 
     - <a href="../catalogos/sectores/">Catalogos</a>
 
