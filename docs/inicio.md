@@ -12,13 +12,13 @@ A continuación mostraremos una captura de esta pantalla con sus distintas secci
 
 ### Secciones
 
-1. Barra Lateral: En esta primera barra lateral tendremos la opción de viajar a tres dashboards principales:
+1. Barra Lateral: En esta primera barra lateral tendremos la opción de viajar a tres portales principales:
 
-    - Inicio: Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
+    - <a href="/oferta/">Inicio</a> : Aquí veremos una pantalla de bienvenida para el usuario (nosotros) y también un resumen con la cantidad de clientes, empleados, sitios y proveedores activos. También se despliega una grafica de pastel con los sitios por categoría.
 
-    - Testigos: En esta sección se ven las Tomas de Testigos, tendremos opción de Aprobar o rechazar las tomas, de ser aprobadas desaparecerán de este dashboard. En cambio si rechazamos la toma, habrá que agregar la razón por la que se rechaza la toma. A diferencia de las tomas aprobadas, las tomas rechazadas aparecerán en el fondo de la página.
+    - <a href="/portales/testigos/">Testigos</a> : En esta sección se ven las Tomas de Testigos, tendremos opción de Aprobar o rechazar las tomas, de ser aprobadas desaparecerán de este dashboard. En cambio si rechazamos la toma, habrá que agregar la razón por la que se rechaza la toma. A diferencia de las tomas aprobadas, las tomas rechazadas aparecerán en el fondo de la página.
 
-    - Cliente: Se despliega un resumen con la información relevante respecto a clientes. Visualizaciones totales, incremento mensual, vistas contratadas, promedio de visualizaciones, vistas por renovar y pendientes. Aparece también una gráfica de barras que compara el año anterior con el presente.
+    - <a href="/portales/cliente/">Cliente</a> : Se despliega un resumen con la información relevante respecto a clientes. Visualizaciones totales, incremento mensual, vistas contratadas, promedio de visualizaciones, vistas por renovar y pendientes. Aparece también una gráfica de barras que compara el año anterior con el presente.
 
 2. Selector de dashboards: Fuera del dashboard de Inicio del cual ya hablamos previamente, existen diferentes Dashboards que está divididos por categorías. Estas categorías son:
 

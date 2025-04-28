@@ -74,6 +74,10 @@ nav:
   - Bienvenida: index.md
   - Inicio:
     - Introducción a SIP: inicio.md
+  - Portales:
+    - Inicio: portales/inicio.md
+    - Testigos: portales/testigos.md
+    - Cliente: portales/cliente.md
   - Oferta: 
     # - Introducción a Oferta: oferta.md
     - Sitios: oferta/sitios.md
@@ -89,6 +93,10 @@ nav:
     - Objetivos Vendadores: ventas/objetivos.md
     - Ordenes de venta: ventas/ordenes.md
     - Operaciones: ventas/operaciones.md
+  - Facturación:
+    # - Introducción a Ventas: ventas.md
+    - Generar Solicitud: facturacion/solicitud.md
+    - Buscador de Factuas: facturacion/buscador.md
   - Contactos:
     # - Introducción a Contactos: contactos.md
     - Clientes: contactos/clientes.md
