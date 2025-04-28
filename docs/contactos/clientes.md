@@ -22,7 +22,7 @@ Aquí se muestran los clientes por sector y tipo en barras y gráfica respectiva
 
 ### 3. Enlace de Portal
 
-Seleccionar este botón nos dirigirá al <a href="/portales/cliente/">Portal de Clientes</a>.
+Seleccionar este botón nos dirigirá al <a href="../../portales/cliente/">Portal de Clientes</a>.
 
 ### 4. Detalles
 
