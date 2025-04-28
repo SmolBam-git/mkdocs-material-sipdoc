@@ -12,5 +12,3 @@
 
 # Sobre el Desarrollo
 
-
-.

@@ -6,7 +6,10 @@ extra_javascript:
 extra_css:
   - ./css/styles.css
 
-site_name: SIP
+site_name: SIPDOC
+repo_url: https://github.com/SmolBam-git/mkdocs-material-sipdoc.git
+repo_name: mkdocs-material-sipdoc
+edit_uri: edit/main/docs/
 theme:
   name: material
   language: es
