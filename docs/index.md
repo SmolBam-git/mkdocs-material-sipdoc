@@ -14,7 +14,7 @@
     }
 
     .md-logo{
-    --md-logo-image: url(/assets/logoCut_alt.png);
+    --md-logo-image: url(assets/logoCut_alt.png);
     }
 
     .md-ellipsis{
@@ -152,7 +152,7 @@
 
         if (!bg1 || !bg2) return; // Evita errores si los elementos no están presentes aún
 
-        const nextImage = `../../assets/fondos/${images[index]}`;
+        const nextImage = `assets/fondos/${images[index]}`;
 
         const fadingIn = bg1.style.opacity == "1" ? bg2 : bg1;
         const fadingOut = bg1.style.opacity == "1" ? bg1 : bg2;
@@ -170,7 +170,7 @@
 
         if (!bg1 || !bg2) return;
 
-        bg1.style.backgroundImage = `url('../../assets/fondos/${images[0]}')`;
+        bg1.style.backgroundImage = `url('assets/fondos/${images[0]}')`;
         bg1.style.opacity = "1";
         bg2.style.opacity = "0";
         index = 1;
