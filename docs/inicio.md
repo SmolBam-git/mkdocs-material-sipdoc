@@ -1,7 +1,3 @@
-# Introducción
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget gravida est. Praesent ut lectus mauris. Etiam faucibus odio quam, quis dapibus dolor faucibus et. Nulla pellentesque ipsum vel ipsum pretium bibendum. Vestibulum sapien ante, accumsan et scelerisque a, mollis in nisl. Nam tempus sem venenatis turpis blandit porta. Proin.
-
 ## Dashboard principal
 
 Esta es la primera pantalla que veremos al acceder a la aplicación web SIP. Desde esta pantalla podremos viajar a cada una de las opciones que la aplicación nos ofrece.
