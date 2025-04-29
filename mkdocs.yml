@@ -7,8 +7,8 @@ extra_css:
   - ./css/styles.css
 
 site_name: SIP
-repo_url: https://github.com/SmolBam-git/mkdocs-material-sipdoc.git
-repo_name: mkdocs-material-sipdoc
+# repo_url: https://github.com/SmolBam-git/mkdocs-material-sipdoc.git
+# repo_name: mkdocs-material-sipdoc
 edit_uri: edit/main/docs/
 theme:
   name: material

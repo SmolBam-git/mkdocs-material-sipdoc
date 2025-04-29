@@ -64,3 +64,7 @@ En la parte superior de esta sección aparecen tres botones.
 - Bloqueo: Mostrará el siguiente formulario
 
 ![dispoBloqueo](../assets/dispoBloqueo.png)
+
+### 5. Nombre de la Vista
+
+Al hacer click dirige al usuario a la <a href="../sitios/#6-boton-ficha">Ficha Técnica</a> de la vista.

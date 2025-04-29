@@ -49,6 +49,6 @@ Notificaciones: Cualquier acción realizada sobre cotizaciones se verán refleja
 
 Reportar un Problema: Representada por una bandera, este botón muestra un formulario donde podemos subir
 
-### 5. Perfil 
+#### 5. Perfil 
 
 Muestra una pantalla con los datos del usuario (Nomrbe de Usuario y Correo) además de un botón para cerrar la sesión.
