@@ -75,8 +75,8 @@ markdown_extensions:
   
 nav:
   - Bienvenida: index.md
-  - Inicio:
-    - Introducción a SIP: inicio.md
+  # - Inicio:
+  #   - Introducción a SIP: inicio.md
   - Portales:
     - Inicio: portales/inicio.md
     - Testigos: portales/testigos.md
@@ -97,9 +97,12 @@ nav:
     - Ordenes de venta: ventas/ordenes.md
     - Operaciones: ventas/operaciones.md
   - Facturación:
-    # - Introducción a Ventas: ventas.md
     - Generar Solicitud: facturacion/solicitud.md
-    - Buscador de Factuas: facturacion/buscador.md
+    - Buscador de Facturas: facturacion/buscador.md
+  - Dashboard:
+    - Dashboard Comercial: dashboard/comercial.md
+    - Dashboard Impresiones: dashboard/impresiones.md
+    - Dashboard Operaciones: dashboard/operaciones.md
   - Contactos:
     # - Introducción a Contactos: contactos.md
     - Clientes: contactos/clientes.md
