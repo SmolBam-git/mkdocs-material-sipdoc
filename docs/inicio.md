@@ -4,7 +4,7 @@ Esta es la primera pantalla que veremos al acceder a la aplicación web SIP. Des
 
 A continuación mostraremos una captura de esta pantalla con sus distintas secciones enumeradas, posteriormente se explicará qué uso tiene cada una de estas.
 
-![mainDashboard](assets/mainDashboardEnum.png)
+![mainDashboard](assets/inicioEnum.png)
 
 ### Secciones
 
