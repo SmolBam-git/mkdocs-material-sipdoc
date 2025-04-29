@@ -1,12 +1,10 @@
 # Planea
 
-En esta sección del apartado Oferta se nos permite, como el nombre indica, planear una campaña. A continuación describiremos cada paso del proceso.
+En esta sección del apartado Oferta se nos permite, como el nombre indica, planear una campaña. El proceso seré apoyado por la Inteligencia Artifical (IA) de OpenAI sin embargo es posible realizar modificaciones a propuestas sugeridas. 
 
 ## Paso a Paso
 
-A continiación se enumeran opciones de la sección de Sitios:
-
-![dispoDashboardEnum](../assets/dispoDashboardEnum.png)
+A continuación describiremos cada paso del proceso.
 
 ### Paso 1: Selección de Cliente
 
@@ -16,7 +14,7 @@ Debemos seleccionar un Nombre Comercial, en función del Nombre Comercial nos pu
 
 ### Paso 2: Objetivo de la campaña
 
-Se muestra un cuadro de texto donde se nos solicita descibir el objetivo de la campaña. Al dar click en siguiente, la Inteligencia Artificial (IA) nos apoyará a generar especificaciones para la campaña. Por esto es importante que en el objetivo se establezca:
+Se muestra un cuadro de texto donde se nos solicita descibir el objetivo de la campaña. Al dar click en siguiente, la IA nos apoyará a generar especificaciones para la campaña. Por esto es importante que en el objetivo se establezca:
 
 - Ubicación geográfica donde se llevará a cabo la campaña.
 
@@ -49,6 +47,20 @@ Es importante aclarar que todos estos datos son sugeridos, y por tanto, editable
 
 ### Paso 7: Generando Campaña
 
-Nuevamente por medio de IA se generará una propuesta de marketing dispuesta en diapositivas. Serán descritos los servicios que eme.pe. ofrece, los clientes a los que trabaja eme.pe., el presupuesto y la temporalidad establecida y siguiente a esto habrá vistas de interés que la IA selecciona automáticamente, podemos quitar de la lista si damos click en el switch verde, ver los detalles de cada vista si presionamos la flecha roja que tiene cada una a su derecha. También podemos filtrar por nombre, ubicación, tipo de medio e incluso buscar fuera de los que han sido seleccionados por IA si así se desea.
+Nuevamente por medio de IA se generará una propuesta de marketing dispuesta en diapositivas. Serán descritos los servicios que eme.pe. ofrece, los clientes a los que trabaja eme.pe., el presupuesto y la temporalidad establecida y siguiente a esto habrá vistas de interés que la IA selecciona automáticamente, podemos quitar de la lista si damos click en el switch verde, ver los detalles de cada vista si presionamos la flecha roja que tiene cada una a su derecha. 
+
+También podemos filtrar por nombre, ubicación, tipo de medio e incluso buscar fuera de los que han sido seleccionados por IA si así se desea. Posteriormente se mostrará Información de Audiencia, donde se muestra un desglose de la audiencia por edades, género, audiencias y el total de aforo vehicular a la quincena y al mes, también estará generada una gráfica de pastel con distribución de edades a la derecha.
 
 ![paso7](../assets/paso7.png)
+
+El último dato que se mostrará es la Información del Sitio donde se explica el por qué de la estrategia establecida, se describe el nivel socioeconómico al que se apunta y el porcentaje de los medios que serán utilizados.
+
+Seguirá una pantallla donde se puede decirle a la IA nuestra opinión de la campaña, comentar el por qué gustó o disgustó la propuesta hecha y de esta forma retroalimentarla para futuras campañas. Si nos agrado la campaña podemos continuar con la parte de configuración y seleccionar si deseamos que se adjunte a la presentación generada la sección de "Nuestros Clientes" y "Nuestros Servicios". Si ya calificamos la propuesta podemos elegir si la enviamos por correo, por medio de un enlace copiado o por WhatsApp.
+
+![opinion](../assets/opinion.png)
+
+### Aceptando la propuesta
+
+Al extender la propuesta a un tercero se adjuntarán todas las pantallas con datos previamente vistos y al finalizar aparecerá una diapositiva donde se el cliente puede aceptar la propuesta y los términos y condiciones vigentes así como colocar su firma. Desde esta pantalla el cliente podrá ver los Términos y Condiciones y el Aviso de Provacidad.
+
+
