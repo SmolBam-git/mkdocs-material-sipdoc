@@ -1,24 +1,32 @@
 # Bloqueos
 
+Si a un sitio le fue solicitado su bloqueo, está o estuvo bloqueado, aparecerá en esta sección.
+
 ??? info "Sobre la enumeración de acciones"
 
     Esta página no tiene mucho contenido así que se omitirá la enumarción de acciones.
 
 
-
-![propuestasCamp](../assets/propuestasCamp.png)
+![bloqueos](../assets/bloqueos.png)
 
 ## Acciones Importantes
 
 Contamos con controladores comunes como la opción de exportar a excel, cuadro de busqueda y navegación entre páginas de tablas, así como acciones de editar (representada con un lápiz) y eliminar (representada con un bote de basura).
 
-Empecemos por la opción de Filtrar por Estado, está opción nos dejará rotar entre tablas de propuestas en función de su estatus (Borrador, Enviar a Cliente, Aprobada por Cliente) o si así se desea se pueden desplegar todas las propuestas en existencia.
+Empecemos por la opción de Filtrar por Estado, está opción nos dejará rotar entre tablas de Bloqueos en función de su estado (Por Autorizar, Vigente, Vencido, En orden de venta y Cancelado) o si así se desea se pueden desplegar todos los bloqueos sin importar su estado.
 
-Posteriormente, en cada Propuesta aparecerán dos botones donde se puede ver la propuesta generada y la enviada al cliente, esto en caso de que se desee consultar y/o editar.
+Posteriormente, en cada Bloqueo aparecerá una flecha donde se pueden realizar distintas acciones dependiendo del estado del bloqueo.
 
-Por último se cuenta con el botón de agregar propuesta el cual da el siguiente formulario.
+- Por Autorizar: En este tipo de bloqueo las opciones que tenemos son Autorizar, Extender Vigencia y Rechazar.
 
-![agregarPropuesta](../assets/agregarPropuesta.png)
+- Vigente: Extender Vigencia, Crear Cotización, Crear Orden de Venta, Cancelar Bloqueo.
 
-Como podemos ver es muy parecido al de la sección anterior, sin embargo en este no seremos apoyados por inteligencia artificial para generar los datos así que se debe tener la idea preecisa de lo que se busca con la campaña.
+- Vencido: Sin acciones listadas.
+
+- En orden de Venta: 
+
+- Cancelado: 
+
+Únicamente es posible agregas bloqueos a través de la <a href="../disponibilidad/#bloqueo">sección de Bloqueos en Disponibilidad</a>.
+
 

@@ -53,15 +53,21 @@ Esta sección nos ofrece distintas opciones. Hacer click en el nombre de la vist
 
 En la parte superior de esta sección aparecen tres botones.
 
-- Archivo KML: Nos permitirá guardar la selección en un archivo tipo `.kml`
+#### Archivo KML
 
-- Cotización: Mostrará el siguiente formulario
+Nos permitirá guardar la selección en un archivo tipo `.kml`
+
+#### Cotización
+
+Mostrará el siguiente formulario
 
 ![dispoCotizacion](../assets/dispoCotizacion.png)
 
 <a href="../cotizaciones/#6-boton-ficha">Click aquí</a>  para ir a la sección de Cotizaciones.
 
-- Bloqueo: Mostrará el siguiente formulario
+#### Bloqueo
+
+Mostrará el siguiente formulario
 
 ![dispoBloqueo](../assets/dispoBloqueo.png)
 
