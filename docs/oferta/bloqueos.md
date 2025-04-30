@@ -19,7 +19,16 @@ Posteriormente, en cada Bloqueo aparecerá una flecha donde se pueden realizar d
 
 - Por Autorizar: En este tipo de bloqueo las opciones que tenemos son Autorizar, Extender Vigencia y Rechazar.
 
+    No pide ningún proceso adicional ninguna de estas acciones, Autorizar pasa el bloqueo a estatus Vigente, Rechazar los manda a cancelado y extender va a programar el vencimiento de un bloqueo a 6 días adelante siempre que tenga menos de los mismos 6 días.
+
 - Vigente: Extender Vigencia, Crear Cotización, Crear Orden de Venta, Cancelar Bloqueo.
+
+    Extender Vigencia actúa de la misma forma que en el estatus Por autorizar, Cancelar Bloqueo manda a Cancelado. Las dos nuevas opciones son Crear Cotización y Crear Orden de Venta.
+
+    Crear Cotización: Despliega el mismo formulario que al crear una cotización a través de los <a href="../disponibilidad/#4-Cuadros-de-Seleccion">cuadros de selección en Disponibilidad</a>, solo que esta vez lo hacemos desde un bloqueo y no desde un sitio disponible.
+
+    Crear Orden de Venta: Al hacer cclick redirigirá al usuario a la siguiente pantalla
+
 
 - Vencido: Sin acciones listadas.
 
@@ -27,6 +36,10 @@ Posteriormente, en cada Bloqueo aparecerá una flecha donde se pueden realizar d
 
 - Cancelado: 
 
-Únicamente es posible agregas bloqueos a través de la <a href="../disponibilidad/#bloqueo">sección de Bloqueos en Disponibilidad</a>.
+
+??? info "Sobre agregar bloqueos"
+
+    Únicamente es posible agregar bloqueos a través de los <a href="../disponibilidad/#4-Cuadros-de-Seleccion">cuadros de selección en Disponibilidad</a>.
+
 
 

@@ -20,5 +20,5 @@ Por último se cuenta con el botón de agregar propuesta el cual da el siguiente
 
 ![agregarPropuesta](../assets/agregarPropuesta.png)
 
-Como podemos ver es muy parecido al de la sección anterior, sin embargo en este no seremos apoyados por inteligencia artificial para generar los datos así que se debe tener la idea preecisa de lo que se busca con la campaña.
+Como podemos ver es muy parecido al de la sección anterior, sin embargo en este no seremos apoyados por inteligencia artificial para generar los datos así que se debe tener la idea precisa de lo que se busca con la campaña.
 
