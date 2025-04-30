@@ -7,9 +7,7 @@ extra_css:
   - ./css/styles.css
 
 site_name: SIP
-# repo_url: https://github.com/SmolBam-git/mkdocs-material-sipdoc.git
-# repo_name: mkdocs-material-sipdoc
-# edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: es
@@ -75,14 +73,11 @@ markdown_extensions:
   
 nav:
   - Bienvenida: index.md
-  # - Inicio:
-  #   - Introducción a SIP: inicio.md
   - Portales:
     - Inicio: portales/inicio.md
     - Testigos: portales/testigos.md
     - Cliente: portales/cliente.md
   - Oferta: 
-    # - Introducción a Oferta: oferta.md
     - Sitios: oferta/sitios.md
     - Disponibilidad: oferta/disponibilidad.md
     - Planea tu campaña: oferta/planea.md
@@ -90,7 +85,6 @@ nav:
     - Bloqueos: oferta/bloqueos.md
     - Cotizaciones: oferta/cotizaciones.md
   - Ventas:
-    # - Introducción a Ventas: ventas.md
     - Análisis Financieros: ventas/analisis.md
     - Testigos: ventas/testigos.md
     - Objetivos Vendadores: ventas/objetivos.md
@@ -104,7 +98,6 @@ nav:
     - Dashboard Impresiones: dashboard/impresiones.md
     - Dashboard Operaciones: dashboard/operaciones.md
   - Contactos:
-    # - Introducción a Contactos: contactos.md
     - Clientes: contactos/clientes.md
     - Asociar Cliente a Vendedor: contactos/asociar.md
     - Convenios: contactos/convenios.md
@@ -112,7 +105,6 @@ nav:
     - Agencias: contactos/agencias.md
     - Tarifas: contactos/tarifas.md
   - Operaciones:
-    # - Introducción a Personal: personal.md
     - Empleados: operaciones/empleados.md
     - Cuadrillas: operaciones/cuadrillas.md
     - Mantenimiento: operaciones/mantenimiento.md
@@ -121,7 +113,6 @@ nav:
     - Ejecutar Impresiones: operaciones/exec_impresiones.md
     - Recibir Material: operaciones/recibirMaterial.md
   - Catálogos:
-    # - Introducción a Catálogos: catalogos.md
     - Sectores: catalogos/sectores.md
     - Tipos de clientes: catalogos/t_clientes.md
     - Tipos de proveedores: catalogos/t_proveedores.md
@@ -134,11 +125,9 @@ nav:
     - Ciudades: catalogos/ciudades.md
     - Estructuras: catalogos/estructuras.md
   - Clasificación:
-    # - Introducción a Clasificación: clasificacion.md
     - Plataformas de sitios: clasificacion/plataformas.md
     - Clasificación de sitios: clasificacion/clasificacion.md
   - Sistema:
-    # - Introducción a Sistema: sistema.md
     - Configuración: sistema/config.md
     - Usuarios: sistema/users.md
   - Sobre el Desarrollo: desarrollo.md
